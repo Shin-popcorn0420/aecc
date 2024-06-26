@@ -1,0 +1,154 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+input, select {
+    vertical-align:middle;
+}
+body{
+  font-family: 'Hiragino UD Serif Std';
+}
+a{
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+.overview-page{
+  color:#DB7701;
+  border:4px solid #DB7701;
+  padding: 67px 5% 36px 5%;
+  a .batu-btn{
+    position: absolute;
+    top:5%;
+    right:4%;
+    cursor: pointer;
+    width:50px;
+    height:50px;
+    span{
+      display:inline-block;
+      position: absolute;
+      height:6px;
+      background-color:#DB7701;
+    }
+    span:nth-of-type(1){
+      top:0px;
+      width:100%;
+      transform: translateY(24px) rotate(-45deg);
+    }
+    span:nth-of-type(2){
+      top:30px;
+      width:100%;
+      transform: translateY(-6px) rotate(45deg);
+    }
+  }
+  .overview-title{
+    text-align: left;
+    margin-bottom: 37px;
+    p{
+      font-size: 30px;
+    }
+  }
+  .overview-text{
+    text-align:left;
+    margin-bottom: 54px;
+    p{
+      font-size: 13px;
+      line-height: 2;
+    }
+  }
+}

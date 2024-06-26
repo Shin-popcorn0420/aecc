@@ -1,0 +1,133 @@
+@media(max-width:980px){
+  #g-nav{
+    .g-nav-ul{
+      li{
+        font-size: calc(1rem + ((1vw - 4.5px)*0.5442));
+        min-height: 0vw;
+      }
+    }
+  }
+  footer{
+    display: none;
+  }
+  .footer-second{
+    display: block;
+    background-color: #2B5F8B;
+    .footer-gridbox{
+      padding: 5% 3% 3% 7%;
+      display: grid;
+      grid-template-columns: 3fr 1fr;
+      .footer-flexbox{
+        display: flex;
+        justify-content: space-around;
+        align-items:top;
+        .footer-list{
+          margin-right: 20px;
+          ul a li{
+            margin-bottom: 35px;
+            font-size: 13px;
+            color:#fff;
+          }
+        }
+      }
+      .footer-logo{
+        display: flex;
+        align-items: flex-end;
+        img{
+          margin: 0 auto;
+          height:48px;
+          width:123px;
+        }
+      }
+    }
+  }
+}
+@media(max-width:700px){
+  .top-wrapper{
+    height:70vh;
+    header{
+      padding: 7% 5% 0 3%;
+      .hamburger-menu{
+        height: 32px;
+        width:40px;
+        span:nth-of-type(2){
+          top:12px;
+        }
+        span:nth-of-type(3){
+          top:24px;
+        }
+      }
+      .header-flexbox{
+        .header-logo{
+          height:49px;
+          width:126px;
+        }
+      }
+    }
+    .top-title{
+      margin-top: 8%;
+      p{
+        font-size: calc(1.4375rem + ((1vw - 4.5px)*0.8844));
+      }
+    }
+    .scrolldown{
+      top:40%;
+      height:145px;
+      span{
+        top:210px;
+      }
+    }
+    .scrolldown::after{
+      height:130px;
+    }
+    @keyframes pathmove{
+      0%{
+        height:0;
+        top:0;
+        opacity: 0
+      }
+      40%{
+        height:130px;
+        opacity: 1;
+      }
+      100%{
+        height: 0;
+        top:145px;
+        opacity: 0;
+      }
+    }
+  }
+  .second-wrapper{
+    padding:55px 10px 82px 10px;
+    .second-text{
+      p{
+        font-size: 15px;
+      }
+    }
+  }
+  .third-wrapper{
+    .group-items{
+      padding: 0;
+      .item{
+        img{
+          width:60px;
+          height:60px;
+        }
+        a p{
+          font-size: 13px;
+        }
+      }
+    }
+  }
+  #g-nav{
+    width:100%;
+    .g-nav-ul{
+      top:50%;
+      left:50%;
+      transform: translate(-50%,-50%);
+      li{
+        line-height: 4;
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+$(function(){
+  $(".item-btn1").click(function(){
+    $("#overview-page").toggleClass('panelactive');
+  });
+  $(".item-btn2").click(function(){
+    $("#testpoint-page").toggleClass('panelactive');
+  });
+  $(".item-btn3").click(function(){
+    $("#diagnose-page").toggleClass('panelactive');
+  });
+  $(".item-btn4").click(function(){
+    $("#introduce-page").toggleClass('panelactive');
+  });
+  $(".item-btn5").click(function(){
+    $("#result-page").toggleClass('panelactive');
+  });
+  $(".hamburger-menu").click(function(){
+    $("#g-nav").toggleClass('panelactive');
+  });
+  $(".batu-btn").click(function(){
+    $("#overview-page").removeClass('panelactive');
+    $("#testpoint-page").removeClass('panelactive');
+    $("#diagnose-page").removeClass('panelactive');
+    $("#introduce-page").removeClass('panelactive');
+    $("#result-page").removeClass('panelactive');
+    $("#g-nav").removeClass('panelactive');
+  });
+});
